@@ -25,5 +25,3 @@ h1 { font: bold 40px Helvetica; letter-spacing: -2px; margin: 0 0 10px 0; }
 
 #shipping-table th { padding: 5px; background: black; color: white; text-align: left; }
 #shipping-table td input { width: 69px;  text-align: center; }
-
-#order-total { font-weight: bold; font-size: 21px; width: 110px; }

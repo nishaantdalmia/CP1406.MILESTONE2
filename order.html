@@ -2,7 +2,7 @@
 <html>
 <head>
 	<meta charset="UTF-8">
-	<title>Diazepam Cafe</title>
+	<title>Diazepam Cafe Order</title>
 	<link rel="stylesheet" type="text/css" href="css/style.css">
 </head>
 <body>
@@ -10,31 +10,47 @@
 		<div>
 			<div id="header">
 			
-			  <ul>
-				  <li>
-						<a href="aboutus.html">About Us</a>
+			   <ul>
+				 
+                  <li>
+						<a href="index.html">About Us</a>
 				</li>
-					<li class="current">
+                
+                
+				<li >
 						<a href="menu.html">Products</a>
 					</li>
-					<li>
+                    
+                    
+					<li >
 						<a href="events.html">Events</a>
 					</li>
+                    
+                    
 					<li>
 						<a href="service.html">Services</a>
 					</li>
-					<li>
+					<li class="current">
 						<a href="order.html">Order Here</a>
 					</li>
                  
-                    <li>
+                    <li >
 						<a href="enquiry.html">Enquiry</a>
 					</li>
-                    <li>
+                    
+                    
+                    <li >
 						<a href="contactus.html">Contact Us</a>
 					</li>
                     
 			  </ul>
+              
+              
+              
+              
+              
+              
+              
 		  </div>
 			<div id="body">
 				<div id="figure">
@@ -51,6 +67,9 @@
 
 
 <H1><center> ORDER FORM </center></H1> 
+
+
+
 
 
 
@@ -91,6 +110,30 @@ var item15 = form.item15.value;
 var item16 = form.item16.value;
 var item17 = form.item17.value;
 var item18 = form.item18.value;
+var item19 = form.item19.value;
+var item20 = form.item20.value;
+var item21 = form.item21.value;
+var item22 = form.item22.value;
+var item23 = form.item23.value;
+var item24 = form.item24.value;
+var item25 = form.item25.value;
+var item26 = form.item26.value;
+var item27 = form.item27.value;
+var item28 = form.item28.value;
+var item29 = form.item29.value;
+var item30 = form.item30.value;
+var item31 = form.item31.value;
+var item32 = form.item32.value;
+var item33 = form.item33.value;
+var item34 = form.item34.value;
+var item35 = form.item35.value;
+var item36 = form.item36.value;
+var item37 = form.item37.value;
+var item38 = form.item38.value;
+var item39 = form.item39.value;
+var item40 = form.item40.value;
+var item41 = form.item41.value;
+var item42 = form.item42.value;
 
 
 
@@ -105,49 +148,191 @@ form.item12.value = (parseInt(item11) * 6.25);
 form.item14.value = (parseInt(item13) * 6.25);
 form.item16.value = (parseInt(item15) * 6.25);
 form.item18.value = (parseInt(item17) * 6.25);
+form.item20.value = (parseInt(item19) * 14);
+form.item22.value = (parseInt(item21) * 14);
+form.item24.value = (parseInt(item23) * 14);
+form.item26.value = (parseInt(item25) * 14);
+form.item28.value = (parseInt(item27) * 14);
+form.item30.value = (parseInt(item29) * 14);
+form.item32.value = (parseInt(item31) * 5);
+form.item34.value = (parseInt(item33) * 5);
+form.item36.value = (parseInt(item35) * 5);
+form.item38.value = (parseInt(item37) * 5);
+form.item40.value = (parseInt(item39) * 5);
+form.item42.value = (parseInt(item41) * 5);
 
 
 
-form.total.value = ( parseFloat(form.item2.value) + parseFloat(form.item4.value)+parseFloat(form.item6.value)+parseFloat(form.item8.value)+parseFloat(form.item10.value)+parseFloat(form.item12.value)+parseFloat(form.item14.value)+parseFloat(form.item16.value)+parseFloat(form.item18.value));
 
+
+
+form.total.value = ( parseFloat(form.item2.value) + parseFloat(form.item4.value) + parseFloat(form.item6.value) + parseFloat(form.item8.value) + parseFloat(form.item10.value) + parseFloat(form.item12.value) + parseFloat(form.item14.value) + parseFloat(form.item16.value) + parseFloat(form.item18.value) + parseFloat(form.item20.value) + parseFloat(form.item22.value) + parseFloat(form.item24.value) + parseFloat(form.item26.value) + parseFloat(form.item28.value) + parseFloat(form.item30.value) + parseFloat(form.item32.value) + parseFloat(form.item34.value) + parseFloat(form.item36.value) +parseFloat(form.item38.value) + parseFloat(form.item40.value) + parseFloat(form.item42.value));
 }
 </script>
-</head>
-<body>
+
+
 
 
        <form>
 <ul class="form-style-1">
-    <li><label>Full Name <span class="required">*</span></label><input type="text" name="field1" class="field-divided" placeholder="First" />&nbsp;<input type="text" name="field2" class="field-divided" placeholder="Last" /></li>
+    <li><label>Full Name <span class="required"></span></label><input type="text" name="field1" class="field-divided" placeholder="First" />&nbsp;<input type="text" name="field2" class="field-divided" placeholder="Last" /></li>
     <li>
-         <label>Email <span class="required">*</span></label>
-        <input type="email" name="field3" class="field-long" />
+         <label>Email <span class="required" >*</span></label>
+        <input type="email"  required name="field3" class="field-long" />
         </li>
         <li>
          <label>Contact Number <span class="required">*</span></label>
-        <input type="email" name="field3" class="field-long" />
+        <input type="text" name="field4" required class="field-long" />
         </li>
           <li>
          <label>Address <span class="required">*</span></label>
-        <input type="email" name="field3" class="field-long" />
+        <input type="text" name="field5" required class="field-long" />
         </li>
           <li>
          <label>Postal Codes <span class="required">*</span></label>
-        <input type="email" name="field3" class="field-long" />
+        <input type="text" name="field6" required class="field-long" />
         </li>
-        
-        
-        
-        </ul>
-        </form><br>
+   
+    </li>
+</ul>
+
+</ul>
+
+
+        <br>
 
 
 
 
+<br>
+<center> SCOOP </center>
 
 
 <form method="POST" action="--WEBBOT-SELF--">
-<table border="1" cellspacing="1" width="1600">
+<table border="1" cellspacing="1" width="900">
+
+
+<tr>
+<td width="267" align="center"><strong>Quantity</strong></td>
+<td width="46" align="center"><strong>price</strong></td>
+<td width="569" align="center"><strong>total</strong></td>
+</tr>
+
+
+
+
+
+<tr>
+<td width="267">Vanilla Sundae
+  <input type="text" name="item1" size="20"
+onchange="calculate(this.form)" value="0"></td>
+<td width="46">$ 6.25</td>
+<td width="569">total for item<input type="text" name="item2" size="20"></td>
+</tr>
+
+
+
+<tr>
+<td width="267">Peachy Paterno<input type="text" name="item3" size="20"
+onchange="calculate(this.form)" value="0"> </td>
+<td width="46">$ 6.25</td>
+<td width="569">total for item<input type="text" name="item4" size="20"></td>
+</tr>
+
+
+<tr>
+<td width="267">Peanut Swirl &nbsp;  &nbsp;
+  <input type="text" name="item5" size="20"
+onchange="calculate(this.form)" value="0"> </td>
+<td width="46">$ 6.25</td>
+<td width="569">total for item<input type="text" name="item6" size="20"></td>
+</tr>
+
+
+
+<tr>
+<td width="267">Mint Pie  &nbsp; &nbsp; &nbsp; &nbsp;  &nbsp;  &nbsp;<input type="text" name="item7" size="20"
+onchange="calculate(this.form)" value="0"> </td>
+<td width="46">$ 6.25</td>
+<td width="569">total for item<input type="text" name="item8" size="20"></td>
+</tr>
+
+
+<tr>
+<td width="267">Raspberry    &nbsp;  &nbsp;  &nbsp; <input type="text" name="item9" size="20"
+onchange="calculate(this.form)" value="0"> </td>
+<td width="46">$ 6.25</td>
+<td width="569">total for item<input type="text" name="item10" size="20"></td>
+</tr>
+
+
+
+
+
+<tr>
+<td width="267">Rum Raisin    &nbsp; <input type="text" name="item11" size="20"
+onchange="calculate(this.form)" value="0"> </td>
+<td width="46">$ 6.25</td>
+<td width="569">total for item<input type="text" name="item12" size="20"></td>
+</tr>
+
+
+
+
+
+
+
+<tr>
+<td width="267">Russ Digs    &nbsp; &nbsp; &nbsp;
+  <input type="text" name="item13" size="20"
+onchange="calculate(this.form)" value="0"> </td>
+<td width="46">$ 6.25</td>
+<td width="569">total for item<input type="text" name="item14" size="20"></td>
+</tr>
+
+
+
+
+
+
+
+
+
+
+<tr>
+<td width="267">Alumni Swirl   &nbsp;  &nbsp;  &nbsp;
+  <input type="text" name="item15" size="20"
+onchange="calculate(this.form)" value="0"> </td>
+<td width="46">$ 6.25</td>
+<td width="569">total for item<input type="text" name="item16" size="20"></td>
+</tr>
+
+
+
+
+
+
+
+
+<tr>
+<td width="267">Berkey Brickle    &nbsp;  &nbsp;<input type="text" name="item17" size="20"
+onchange="calculate(this.form)" value="0"> </td>
+<td width="46">$ 6.25</td>
+<td width="569">total for item<input type="text" name="item18" size="20"></td>
+</tr>
+<br>
+</table>
+
+<br>
+
+
+<center> SUNDAE </center>
+
+
+<br>
+
+
+<table border="1" cellspacing="1" width="900">
 
 
 <tr>
@@ -160,92 +345,82 @@ form.total.value = ( parseFloat(form.item2.value) + parseFloat(form.item4.value)
 
 
 
+
+
+
+
+
+
+
+
+
+
 <tr>
-<td width="224">Vanilla Sundae
-  <input type="text" name="item1" size="20"
-onchange="calculate(this.form)" value="0"></td>
-<td width="39">$ 6.25</td>
-<td width="476">total for item1 orders<input type="text" name="item2" size="20"></td>
-</tr>
-
-
-
-<tr>
-<td width="224">Peachy Paterno<input type="text" name="item3" size="20"
+<td width="224">S'Morea Sundaes    &nbsp;  &nbsp;<input type="text" name="item19" size="20"
 onchange="calculate(this.form)" value="0"> </td>
-<td width="39">$ 6.25</td>
-<td width="476">total for item 2 orders<input type="text" name="item4" size="20"></td>
-</tr>
-
-
-<tr>
-<td width="224">Peanut Swirl &nbsp;  &nbsp;
-  <input type="text" name="item5" size="20"
-onchange="calculate(this.form)" value="0"> </td>
-<td width="39">$ 6.25</td>
-<td width="476">total for item 2 orders<input type="text" name="item6" size="20"></td>
+<td width="39">$ 14</td>
+<td width="476">total for item<input type="text" name="item20" size="20"></td>
 </tr>
 
 
 
 <tr>
-<td width="224">Mint Pie  &nbsp; &nbsp; &nbsp; &nbsp;  &nbsp;  &nbsp;<input type="text" name="item7" size="20"
+<td width="224">Gooey Choc Cake    &nbsp;  &nbsp;<input type="text" name="item21" size="20"
 onchange="calculate(this.form)" value="0"> </td>
-<td width="39">$ 6.25</td>
-<td width="476">total for item 2 orders<input type="text" name="item8" size="20"></td>
+<td width="39">$ 14</td>
+<td width="476">total for item<input type="text" name="item22" size="20"></td>
 </tr>
 
 
 <tr>
-<td width="224">Raspberry    &nbsp;  &nbsp;  &nbsp; <input type="text" name="item9" size="20"
+<td width="180">Fudge Cupcakes    &nbsp;  &nbsp;<input type="text" name="item23" size="20"
 onchange="calculate(this.form)" value="0"> </td>
-<td width="39">$ 6.25</td>
-<td width="476">total for item 2 orders<input type="text" name="item10" size="20"></td>
+<td width="39">$ 14</td>
+<td width="476">total for item<input type="text" name="item24" size="20"></td>
 </tr>
-
-
-
 
 
 <tr>
-<td width="224">Rum Raisin    &nbsp; <input type="text" name="item11" size="20"
+<td width="180">VeryBerryMess   &nbsp;  &nbsp;<input type="text" name="item25" size="20"
 onchange="calculate(this.form)" value="0"> </td>
-<td width="39">$ 6.25</td>
-<td width="476">total for item 2 orders<input type="text" name="item12" size="20"></td>
+<td width="39">$ 14</td>
+<td width="476">total for item<input type="text" name="item26" size="20"></td>
 </tr>
-
-
-
-
-
 
 
 <tr>
-<td width="224">Russ Digs    &nbsp; &nbsp; &nbsp;
-  <input type="text" name="item13" size="20"
+<td width="180">Caramel Apple   &nbsp;  &nbsp;<input type="text" name="item27" size="20"
 onchange="calculate(this.form)" value="0"> </td>
-<td width="39">$ 6.25</td>
-<td width="476">total for item 2 orders<input type="text" name="item14" size="20"></td>
+<td width="39">$ 14</td>
+<td width="476">total for item<input type="text" name="item28" size="20"></td>
 </tr>
-
-
-
-
-
-
-
-
 
 
 <tr>
-<td width="224">Alumni Swirl   &nbsp;  &nbsp;  &nbsp;
-  <input type="text" name="item15" size="20"
+<td width="180">Bruleed Twinkie   &nbsp;  &nbsp;<input type="text" name="item29" size="20"
 onchange="calculate(this.form)" value="0"> </td>
-<td width="39">$ 6.25</td>
-<td width="476">total for item 2 orders<input type="text" name="item16" size="20"></td>
+<td width="39">$ 14</td>
+<td width="476">total for item<input type="text" name="item30" size="20"></td>
 </tr>
 
 
+
+
+
+</table>
+<br>
+<center> DRINKS </center>
+<br>
+
+
+<table border="1" cellspacing="1" width="900">
+
+
+<tr>
+<td width="224" align="center"><strong>Quantity</strong></td>
+<td width="39" align="center"><strong>price</strong></td>
+<td width="476" align="center"><strong>total</strong></td>
+</tr>
 
 
 
@@ -253,11 +428,59 @@ onchange="calculate(this.form)" value="0"> </td>
 
 
 <tr>
-<td width="224">Berkey Brickle    &nbsp;  &nbsp;<input type="text" name="item17" size="20"
+<td width="180">Brownie Shake   &nbsp;  &nbsp;<input type="text" name="item31" size="20"
 onchange="calculate(this.form)" value="0"> </td>
-<td width="39">$ 6.25</td>
-<td width="476">total for item 2 orders<input type="text" name="item18" size="20"></td>
+<td width="39">$ 5</td>
+<td width="476">total for item<input type="text" name="item32" size="20"></td>
 </tr>
+
+
+<tr>
+<td width="180">Choco Dream  &nbsp;  &nbsp;<input type="text" name="item33" size="20"
+onchange="calculate(this.form)" value="0"> </td>
+<td width="39">$ 5</td>
+<td width="476">total for item<input type="text" name="item34" size="20"></td>
+</tr>
+
+
+<tr>
+<td width="180">Pumpkin Float   &nbsp;  &nbsp;<input type="text" name="item35" size="20"
+onchange="calculate(this.form)" value="0"> </td>
+<td width="39">$ 5</td>
+<td width="476">total for item<input type="text" name="item36" size="20"></td>
+</tr>
+
+
+<tr>
+<td width="180">Velvet Cocktail    &nbsp;  &nbsp;<input type="text" name="item37" size="20"
+onchange="calculate(this.form)" value="0"> </td>
+<td width="39">$ 5</td>
+<td width="476">total for item<input type="text" name="item38" size="20"></td>
+</tr>
+
+
+<tr>
+<td width="180">AppPie Shake   &nbsp;  &nbsp;<input type="text" name="item39" size="20"
+onchange="calculate(this.form)" value="0"> </td>
+<td width="39">$ 5</td>
+<td width="476">total for item<input type="text" name="item40" size="20"></td>
+</tr>
+
+<tr>
+<td width="180">BerryCheese    &nbsp;  &nbsp;<input type="text" name="item41" size="20"
+onchange="calculate(this.form)" value="0"> </td>
+<td width="39">$ 5</td>
+<td width="476">total for item<input type="text" name="item42" size="20"></td>
+</tr>
+
+
+
+
+
+
+
+
+
 
 
 
@@ -276,13 +499,39 @@ onchange="calculate(this.form)" value="0"> </td>
 
 <H2>Please read the 
 <a href="tnc.html">term and conditions.</a></h2>
-<input type="checkbox"/>
-  <label for="terms">I have read the terms and conditions.</label>
-<p>
 
 
-<a href="tq.html">
-<input type="button" name="button" value="Submit" name="B1"></a>
+
+
+
+
+<input type="checkbox" name="checkbox" required value="check"  />
+<label for="terms" validation=click>I have read the terms and conditions.</label>
+
+
+
+
+<button formaction="tq.html">Sumbit</button> 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -316,13 +565,11 @@ name="B2"></p>
 
 
 
-
-
 			  </div>
 			</div>
 			<div id="footer">
 				<div>
-				<a href="aboutus.html"><img src="images/hipsterlogogenerator_1434522734796 copy.png" height=70 alt="Image"></a>
+				<img src="images/hipsterlogogenerator_1434522734796 copy.png" height=70 alt="Image">
 					<p class="footnote">
 						&copy; Diazepam Cafe 2016<br>All Rights Reserved.
 					</p>
@@ -331,10 +578,10 @@ name="B2"></p>
 					<ul>
 					</ul>
 					<div id="connect">
-						<a href="http://DiazepamCafe/" target="_blank" id="facebook">Facebook</a>
-						<a href="http://DiazepamCafe.com/go/twitter/" target="_blank" id="twitter">Twitter</a>
-						<a href="Diazepam Cafe/" target="_blank" id="googleplus">Google+</a>
-						<a href="index.html" id="rss">RSS</a>
+						<a href="http://facebook.com/" target="_blank" id="facebook">Facebook</a>
+						<a href="http://twitter.com/" target="_blank" id="twitter">Twitter</a>
+						<a href="https://plus.google.com/" target="_blank" id="googleplus">Google+</a>
+						<a href="https://www.rss.com" id="rss">RSS</a>
 					</div>
 					<p>
 						
